@@ -1,0 +1,40 @@
+body {
+    width: 1920px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.review-card {
+    background-color: rgb(247, 247, 205);
+    width: 600px;
+    height: auto;
+    margin-top: 50em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3em;
+    padding: 3em;
+}   
+
+img {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    margin-bottom: 1em;
+}
+
+.score-container {
+    display: flex;
+    gap: 2em;
+}
+
+.review-content {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.reviewer-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
