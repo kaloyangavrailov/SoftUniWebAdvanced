@@ -1,3 +1,5 @@
+@import url('apartment-card.css');
+@import url('review.css');
 body {
     max-width: 1920px;
     height: auto;
@@ -8,6 +10,11 @@ body {
 header, main, footer {
     background-color: white;
     
+}
+
+.home-page-main-container {
+    display: flex;
+    flex-flow: column;
 }
 
 header {
@@ -54,4 +61,55 @@ a {
     color: white;
     position: relative;
     top: 200px;
+}
+
+.section-2 {
+    display: flex;
+    flex-flow: column;
+}
+
+.listings-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-2 > p, .section-3 > p {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.section-2 > button {
+    width: 15%;
+    align-self: center;
+}
+
+button > a {
+    color: white;
+}
+
+.section-3 {
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 2em;
+}
+
+.main-review-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > ul {
+    font-size: 1.3em;
+    list-style: none;
+    opacity: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    border-top: 3px solid grey;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
