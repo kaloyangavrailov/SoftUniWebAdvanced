@@ -68,7 +68,7 @@ span {
 }
 
 form {
-    display: none;
+    display: block;
 }
 
 .bookings-container {

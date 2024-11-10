@@ -1,0 +1,10 @@
+body {
+    width: 1920px;
+    margin: 0 auto;
+
+}
+
+.about-container > p:first-child {
+    font-size: 3em;
+
+}
